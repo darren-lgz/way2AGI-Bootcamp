@@ -339,6 +339,35 @@ main {
   gap: 8px;
 }
 
+.media-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 22px;
+}
+
+.media-card {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 18px;
+  padding: 16px;
+  box-shadow: var(--shadow);
+  border: 1px solid rgba(31, 26, 20, 0.08);
+  display: grid;
+  gap: 12px;
+}
+
+.media-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  border: 1px solid rgba(31, 26, 20, 0.08);
+  background: var(--white);
+}
+
+.media-card figcaption {
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+
 .cta {
   display: inline-flex;
   align-items: center;
