@@ -291,13 +291,17 @@ main {
 }
 
 .card h3 {
-  min-height: 2.4em;
+  min-height: 3.2em;
+  line-height: 1.25;
+  display: flex;
+  align-items: center;
 }
 
 .card-kicker {
   font-size: 0.85rem;
   font-weight: 600;
   color: var(--coral);
+  min-height: 1.2em;
 }
 
 .card ul {
